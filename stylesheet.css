@@ -159,11 +159,11 @@ main{
     -ms-border-radius: 50% 0% 0% 50%;
     -o-border-radius: 50% 0% 0% 50%;
     position: relative;
-    right: 0.2vw;
+    right: 0vw;
 }
 .h1{
     font-family: 'league_spartan';
-    font-size: 1.4em;
+    font-size: 1.4vw;
     width: 100%;
 }
 .block{
@@ -250,7 +250,7 @@ h2, h3 {
     left: 0;
     z-index: 101;
 }
-p {
+p, tel {
     padding-left: 2vw;
     padding-right: 2vw;
 }
@@ -258,9 +258,18 @@ p {
     color: rgba(0, 0, 0, 0.945);
     font-family: monospace;
     font-weight: bold;
-    font-size: 1.5vh;
+    font-size: 0.8vw;
     margin: 1vh auto;
 }
 span {
     font-size: 2vh;
+    font-size: 0.95vw;
+    font-family: monospace;
+}
+.contactus {
+    padding-top: 2vh;
+    font-style: italic;
+}
+tel {
+    font-style: italic;
 }
