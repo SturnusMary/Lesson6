@@ -253,6 +253,7 @@ h2, h3 {
 p, tel {
     padding-left: 2vw;
     padding-right: 2vw;
+    text-indent: 2%;
 }
 .copyright2019 {
     color: rgba(0, 0, 0, 0.945);
@@ -269,6 +270,7 @@ span {
 .contactus {
     padding-top: 2vh;
     font-style: italic;
+
 }
 tel {
     font-style: italic;
